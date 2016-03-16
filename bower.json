@@ -1,0 +1,21 @@
+{
+  "name": "tetris",
+  "homepage": "https://github.com/NovaYuan/tetris",
+  "authors": [
+    "qiujuan_yuan@163.com"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.5.0"
+  }
+}

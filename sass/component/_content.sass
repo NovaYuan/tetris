@@ -1,0 +1,99 @@
+.main
+  position: relative
+  padding: $small_gap
+
+  .grid,
+  .options
+    position: fixed
+    width: 65%
+    top: $header_H + $big_gap
+    bottom: $big_gap
+    background: black
+
+  .options
+    width: 27%
+    right: $small_gap
+    background: white
+
+    h6
+      color: gray
+      margin-bottom: $small_gap
+
+    .next-block,
+    .score
+      margin-bottom: $common_gap
+
+    .block-n
+      border: 1px solid #eee
+      height: 90px
+      background: gray
+
+    .score
+      h6
+        margin-bottom: 5px
+
+      .score-n
+        text-align: center
+
+        span
+          font-size: 24px
+          color: green
+          border-bottom: 1px solid
+
+    .grade
+      .grade-n
+        text-align: center
+
+        span
+          font-size: 24px
+          color: green
+          border-bottom: 1px solid
+
+    .start-pause
+      margin-top: 50px
+      text-align: center
+
+      .button-start
+        width: 100%
+        height: 45px
+        background: $header_bg
+        border: none
+        color: white
+
+    .opts
+      position: absolute
+      bottom: 0
+      width: 100%
+      text-align: center
+
+      .change,
+      .turn-lr,
+      .down-fast
+        height: 50px
+        i
+          font-size: 40px
+
+      .change
+        i
+          color: #FF9900
+
+      .turn-lr
+        position: relative
+
+        .turn-left,
+        .turn-right
+          display: inline-block
+          width: auto
+          position: absolute
+          i
+            color: green
+
+        .turn-left
+          left: 0
+
+        .turn-right
+          right: 0
+
+      .down-fast
+        i
+          color: #CC3333
